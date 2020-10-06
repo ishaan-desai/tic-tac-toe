@@ -31,7 +31,6 @@ def render_board(board):
 
 
 # render_board(board)
-   
 
 #  Get player input
 def get_move(player_id):
@@ -74,6 +73,7 @@ def is_board_full(board):
     if count == 9:
         print("the board is full")
         sys.exit()
+
 
 
 if __name__ == '__main__':
